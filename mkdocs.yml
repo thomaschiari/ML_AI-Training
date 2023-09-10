@@ -1,0 +1,9 @@
+site_name: Capacitação em ML e IA
+theme:
+  name: flatly
+  nav_style: dark
+nav: 
+  - Home: index.md
+  - Como utilizar: utilizacao.md
+  - Módulo 0 - Python e Pandas: modulo0.md
+  - Módulo 1 - Pré-processamento e análise exploratória: modulo1.md
