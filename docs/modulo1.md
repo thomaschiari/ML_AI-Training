@@ -4,4 +4,4 @@ Aqui iniciaremos a jornada em Machine Learning. Todo projeto se inicia entendend
 
 ## Como utilizar este material
 
-Acesse a página com as instruções de instalação completas clicando [aqui](#).
+Acesse a página com as instruções de instalação completas clicando [aqui](https://thomaschiari.github.io/ML_AI-Training/utilizacao/).

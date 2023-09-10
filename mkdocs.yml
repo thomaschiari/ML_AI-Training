@@ -5,5 +5,5 @@ theme:
 nav: 
   - Home: index.md
   - Como utilizar: utilizacao.md
-  - Módulo 0 - Python e Pandas: modulo0.md
-  - Módulo 1 - Pré-processamento e análise exploratória: modulo1.md
+  - Módulo 0: modulo0.md
+  - Módulo 1: modulo1.md

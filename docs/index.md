@@ -8,11 +8,11 @@ Bem-vindo(a) à Capacitação em Machine Learning e Inteligência Artificial da 
 
 ## Utilização
 
-Para um manual compreensivo de utilização do repositório, acesse o link [aqui](#).
+Para um manual compreensivo de utilização do repositório, acesse o link [aqui](https://thomaschiari.github.io/ML_AI-Training/utilizacao/).
 
 ## Assuntos
 
 | Data       | Assunto               | Link                       |
 |------------|-----------------------|----------------------------|
-| 2023-09-13 | Reunião Inicial, Python e Pandas     | [Link](#)       |
-| 2023-09-20 | Pré-Processamento e Análise Exploratória | [Link](#)    |
+| 2023-09-13 | Reunião Inicial, Python e Pandas     | [Link](https://thomaschiari.github.io/ML_AI-Training/modulo0/)       |
+| 2023-09-20 | Pré-Processamento e Análise Exploratória | [Link](https://thomaschiari.github.io/ML_AI-Training/modulo1/)    |

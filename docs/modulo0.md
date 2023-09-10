@@ -4,7 +4,7 @@ Este módulo introdutório tem como objetivo fornecer o básico do material de s
 
 ## Como utilizar este material
 
-Acesse a página com as instruções de instalação completas clicando [aqui](#).
+Acesse a página com as instruções de instalação completas clicando [aqui](https://thomaschiari.github.io/ML_AI-Training/utilizacao/).
 
 # Python
 
