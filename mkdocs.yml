@@ -9,6 +9,4 @@ nav:
   - Módulo 0: modulo0.md
   - Módulo 1: modulo1.md
 
-site_dir: site
-docs_dir: docs
 site_url: https://thomaschiari.github.io/ML_AI-Training
