@@ -1,0 +1,6 @@
+site_name: Capacitação em Machine Learning e Inteligência Artificial
+site_description: Capacitação para novos membros de Machine Learning da Insper Dynamics
+theme:
+  name: material
+nav:
+  - Home: index.md
