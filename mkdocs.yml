@@ -1,9 +1,7 @@
 site_name: Capacitação em ML e IA
-
 theme:
   name: dracula
-
 nav: 
-  - Home: home.md
+  - Home: index.md
   - Módulo 0: modulo0.md
   - Módulo 1: modulo1.md
