@@ -4,7 +4,7 @@
 <!-- This project uses styles and formatting from [Dracula MkDocs](https://github.com/dracula/mkdocs), which is licensed under the MIT License. -->
 
 <head>
-        <title>Capacitação em ML e IA</title>
+        <title>Módulo 1 - Capacitação em ML e IA</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +14,12 @@
         
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./assets/css/dracula-ui.css">
-        <link rel="stylesheet" href="./assets/css/mkdocs.css">
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/dracula-ui.css">
+        <link rel="stylesheet" href="../assets/css/mkdocs.css">
 
         
-            <link  rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+            <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
         
             <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
                 <script>hljs.initHighlightingOnLoad();</script>
@@ -73,21 +73,21 @@
                 </a>
             </li>
             <li class="drac-box">
-                <a href="./repositorio_ex/"
+                <a href="./"
                     class="
                     drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
                     Repositório de Exercícios
                 </a>
             </li>
             <li class="drac-box">
-                <a href="./modulo0/"
+                <a href="../modulo0/"
                     class="
                     drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
                     Módulo 0
                 </a>
             </li>
             <li class="drac-box">
-                <a href="./modulo1/"
+                <a href="../modulo1"
                     class=" active 
                     drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
                     Módulo 1
@@ -118,12 +118,28 @@
                     <!-- block preview -->
                     <li class="nav-item">
                             
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../modulo0/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a 
+                        class="btn-preview drac-btn drac-text-white--hover disabled" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
                     </li>
                     <!--  endblock -->
 
                     <!-- block search -->
                     <li class="nav-item"><div role="search" class="search-box">
-	<form id="rtd-search-form" class="wy-form" action="//search.html" method="get">
+	<form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
 		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
 		placeholder="Search docs" title="Type search term here" />
 	</form>
@@ -146,39 +162,63 @@
             <!-- endblock -->
 
             <!-- block content -->
-    <section class="p-md-5 section-content">
-        <article>
-            <p></p>
-            <h1>404</h1>
-            <figure>      
-                <img src="./assets/img/meme.gif" alt="404" class="img-fluid">      
-            </figure>
-            <hr>
-            <p><strong>Page not found</strong></p>
-        </article>
-    </section>
-
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="iniciando-repo-exercicios">Como utilizar o Repositório de Exercícios?</h1>
+<p>Preparamos um repositório extra que contém atividades para cada notebook presente no repositório de capacitação.
+     O objetivo é que você possa praticar seus conhecimentos, e servir realmente como um playground. Não pretendemos ativamente corrigir as atividades (a não ser em caso de dúvidas), apenas verificar o andamento delas e como vocês estão se virando. 
+     Portanto, aproveitem o material!
+</p>
+<h2 id="como-utilizar-este-material">Como utilizar este material</h2>
+<p>Acesse a página com as instruções de instalação completas clicando <a href="https://thomaschiari.github.io/ML_AI-Training/#utilizacao">aqui</a>.</p>
+<h2 id="como-acessar-repo-ex">Como configurar o repositório de exercícios?</h2>
+<ol>
+    <li>Acesse o repositório de exercícios: <a href="https://github.com/thomaschiari/ML_AI-Training-Submits">clique aqui.</a></li>
+    <li>Na parte superior direita, clique em <code>Fork</code> e defina um nome para o seu repositório. Deixe-o público para ser visível para os outros membros e diretores.</li>
+    <li>Clone seu repositório localmente:</li>
+    <ul>
+        <li>Abra o terminal e digite <code>git clone (link para repositório)</code>.</li>
+        <li>Navegue para o repositório utilizando <code>cd nome_do_repo</code>.</li>
+    </ul>
+    <li>Adicione o repositório de exercícios como um repositório upstream remoto: <code>git remote add upstream https://github.com/thomaschiari/ML_AI-Training-Submits.git</code>.</li>
+    <li>Abra seu repositório na sua IDE de preferência e realize as atividades.</li>
+    <li>Para atualizar as suas edições no repositório remoto, utilize os seguintes comandos:</li>
+    <ul>
+        <li><code>git add arquivos_a_adicionar</code></li>
+        <li><code>git commit -m "mensagem_de_commit"</code></li>
+        <li><code>git push origin main</code></li>
+    </ul>
+    <li>Para manter seu repositório atualizado e seguindo o repositório de origem, utilize os seguintes comandos:</li>
+    <ul>
+        <li><code>git fetch upstream</code></li>
+        <li><code>git merge upstream/main</code></li>
+        <li><code>git push origin main</code></li>
+    </ul>
+    <li>Pronto! Agora seu repositório está configurado e atualizado.</li>
+</ol>
+    </article>
+</section>
             <!-- endblock -->
 
             <!-- block footer -->
-                <footer>
-    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
-        <a href="https://github.com/thomaschiari/ML_AI-Training" target="_blank" style="padding-left: 1%;"
-            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
-            Repository under MIT license - Copyright &copy; 2023 Thomas Chiari Ciocchetti de Souza
-        </a>
-    </div>
-</footer>
+            <footer>
+                <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+                    <a href="https://github.com/thomaschiari/ML_AI-Training" target="_blank" style="padding-left: 1%;"
+                        class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+                        Repository under MIT license - Copyright &copy; 2023 Thomas Chiari Ciocchetti de Souza
+                    </a>
+                </div>
+            </footer>
             <!-- endblock -->
         </div>
 
     </main>
 
-        <script>var base_url = '/';</script>
-        <script src="/assets/js/jquery-3.3.1.slim.min.js""></script>
-        <script src="/assets/js/bootstrap.bundle.min.js""></script>
-        <script src="/assets/js/mkdocs.js""></script>
-			<script src="/search/main.js" defer></script>
+        <script>var base_url = '..';</script>
+        <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
+        <script src="../assets/js/bootstrap.bundle.min.js""></script>
+        <script src="../assets/js/mkdocs.js""></script>
+			<script src="../search/main.js" defer></script>
 
 </body>
 
