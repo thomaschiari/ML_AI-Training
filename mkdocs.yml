@@ -5,6 +5,6 @@ theme:
   nav_style: dark
 
 nav: 
-  - Home: index.md
+  - Home: home.md
   - Módulo 0: modulo0.md
   - Módulo 1: modulo1.md
