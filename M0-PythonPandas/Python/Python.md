@@ -164,4 +164,4 @@ jupyter notebook
 
 ## LICENSE
 
-The project is distributed under the MIT License.
+The project is distributed under the MIT License. Author: Guilherme Fontana
