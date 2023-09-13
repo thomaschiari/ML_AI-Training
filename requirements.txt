@@ -6,3 +6,4 @@ matplotlib
 seaborn
 category_encoders
 openpyxl
+autograd
